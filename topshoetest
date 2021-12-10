@@ -1,0 +1,1901 @@
+-- brand
+INSERT INTO brand(name, phone, contact_name, email, address, zip)
+VALUES('FORTUNE DYNAMIC', '0', 'NA', 'NA', 'NA', 'NA');
+
+INSERT INTO brand(name, phone, contact_name, email, address, zip)
+VALUES('FOREVER LINK', '0', 'NA', 'NA', 'NA', 'NA');
+
+INSERT INTO brand(name, phone, contact_name, email, address, zip)
+VALUES('TOP GUY', '0', 'NA', 'NA', 'NA', 'NA');
+
+INSERT INTO brand(name, phone, contact_name, email, address, zip)
+VALUES('TWIN TIGER', '0', 'NA', 'NA', 'NA', 'NA');
+
+INSERT INTO brand(name, phone, contact_name, email, address, zip)
+VALUES('WESTWOOD', '0', 'NA', 'NA', 'NA', 'NA');
+ 
+				
+
+-- box
+INSERT INTO box(name, brand_id)
+VALUES('D', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('BB', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('D16', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('B16', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('DD16', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('C12', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('D12', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('X12', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('B', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('B12', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('L12', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('A', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('B', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('A12', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('B12', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('C12', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('G12', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('A12', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('B12', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('C12', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('A', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('B', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('C', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('A12', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('B12', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('C12', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('NC1', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('B', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('C', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_10', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_10', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_10', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_10', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_10', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_12', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_12', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_12', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_12', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_12', 5);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_18', 1);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_18', 2);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_18', 3);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_18', 4);
+
+INSERT INTO box(name, brand_id)
+VALUES('SOLID_18', 5);
+
+
+-- box_content
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 7, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 7.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(1, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(2, 11, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 7, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 7.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(3, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 7, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 7.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(4, 11, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(5, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 5.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(6, 8, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(7, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(8, 11, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(9, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(10, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 8, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(11, 11, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 7, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(12, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(13, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 6.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 8, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(14, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(15, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(16, 11, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(17, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(18, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(19, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(20, 11, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 6.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 7, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 7.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(21, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(22, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(23, 11, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 5.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 6, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 9, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(24, 10, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(25, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 8, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 8.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(26, 11, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 7.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 8, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 8.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 9, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 10, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(27, 11, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 6, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 6.5, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 7, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(28, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 7, 1);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 7.5, 2);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 8, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 8.5, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 9, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 10, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(29, 11, 3);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 5.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 6, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 6.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 7, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 7.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 8, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 8.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 9, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 10, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(30, 11, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 5.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 6, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 6.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 7, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 7.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 8, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 8.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 9, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 10, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(31, 11, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 5.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 6, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 6.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 7, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 7.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 8, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 8.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 9, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 10, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(32, 11, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 5.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 6, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 6.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 7, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 7.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 8, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 8.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 9, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 10, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(33, 11, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 5.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 6, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 6.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 7, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 7.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 8, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 8.5, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 9, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 10, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(34, 11, 10);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 5.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 6, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 6.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 7, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 7.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 8, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 8.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 9, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 10, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(35, 11, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 5.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 6, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 6.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 7, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 7.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 8, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 8.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 9, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 10, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(36, 11, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 5.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 6, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 6.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 7, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 7.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 8, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 8.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 9, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 10, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(37, 11, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 5.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 6, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 6.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 7, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 7.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 8, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 8.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 9, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 10, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(38, 11, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 5.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 6, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 6.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 7, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 7.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 8, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 8.5, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 9, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 10, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(39, 11, 12);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 5.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 6, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 6.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 7, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 7.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 8, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 8.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 9, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 10, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(40, 11, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 5.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 6, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 6.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 7, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 7.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 8, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 8.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 9, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 10, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(41, 11, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 5.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 6, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 6.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 7, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 7.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 8, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 8.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 9, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 10, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(42, 11, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 5.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 6, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 6.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 7, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 7.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 8, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 8.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 9, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 10, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(43, 11, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 5.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 6, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 6.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 7, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 7.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 8, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 8.5, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 9, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 10, 18);
+
+INSERT INTO box_content(box_id, size, quantity)
+VALUES(44, 11, 18);
+
+
+-- shoe
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('NOLA', 'LT-TAN', 'NB', '1', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('NOLA', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('NOLA', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('NOLA', 'RED LAMI', 'NA', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('AGE', 'BLACK', 'ISU/PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('AGE', 'TAUPE', 'ISU/PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('AGENDA', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ARAN', 'MGREY', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ARAN', 'BURGANDY', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ARAN', 'BLACK', 'NB(DISPU)', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ARAN', 'LT-TAUPE(DK-NAT)', 'FLK', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ARAN', 'WH/BK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('AWESOME', 'BLACK', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('BREEZE', 'BLACK', 'FAB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('BRIEFLY', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('BRIEFLY', 'DK-TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('BRYCE', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CASHIER', 'B-TAN', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHALET', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHALET', 'WHITE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHANCE', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHANCE', 'COGNAC', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHANCE', 'GREY', 'NB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHANCE', 'LBRN', 'DISPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHIVAS', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHIVAS', 'TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CHIVAS', 'WHITE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CINDY', 'C-BLUE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CLIP', 'TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CLIP', 'WHITE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CLIP', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CLIP', 'CAMO KHAKI', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CLIP', 'NAT PYTHON', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CODE', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('COEN', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('COEN', 'NAVY', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CROFT', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('CROFT', 'CLAY', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DOME-SA', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DALLES', 'TAN', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DENNIS', 'SLV GLT', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DIANA', 'BLACK', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DIANA', 'CAMO L-KHA', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DIANA', 'LEO L-TAN', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('DIANA', 'L-TAUPE', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ELECT', 'WHITE', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ELECT', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ELECT', 'CLAY', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ELECT', 'L-TAUPE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('GLOVE', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('GLOVE', 'BROWN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('GLOVE', 'WH/BK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('GRUNGE', 'WHITE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'BLACK', 'CROCODILE', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'BLACK', 'CROBA', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'FLOWER WHITE', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'LT-KHAKI CAMO', 'N/A ', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'MAUVE', 'COBRA', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'OAT CHEET', 'N/A ', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'TAN/BK', 'PLAID', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('HIKE', 'WHITE', 'CROCODILE', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('INDIANA', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('INVEST', 'BLACK', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('INVEST', 'LT-TAN', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('INVEST', 'SMK-TAUPE', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('INVEST', 'VINO', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('JABER', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('JACK', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('JACK', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('JACK', 'DK-BGE', 'PAT', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('JACK', 'NAVY', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('KAILI', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('KAILI', 'NAT', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('KORMAN', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MARIA', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MARIA', 'BROWN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MARIA', 'TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MARIA', 'WH/BK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MERIT', 'DK-BLUE', 'DENIM', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MERIT', 'N-LTP', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MUG', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MUG', 'CHAR', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MUG', 'COGNAC', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('MUG', 'L-WEA', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ORALEE', 'BROWN', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ORALEE-25(KF)', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ORIGAMI', 'BROWN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ORIGAMI', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('OUTING', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('OUTING', 'D-TAN', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('OXLEY', 'BLACK', 'FAB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('PARASOL', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('PARASOL', 'WHILTE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('PLENTY', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('PLENTY', 'LT-TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('PLENTY', 'WHILTE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('POPPIN', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('POPPIN', 'CAMEL', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('QUINCE', 'BLACK', 'NB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'L-GREY', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'ALL BLACK', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'WH/BK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'LT-KHAKI CAMO', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'OAT CHEET', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REIGN', 'BEIGE PYTHON', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'DK-TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'GREY PYTHON/BLK', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'RED', 'STRPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'L-TAUPE', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'RED-STR', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('RENO', 'WHITE', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REX', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REX', 'CHAR', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REX', 'HAZEL', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('REX', 'LT-TAUPE', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ROUTE', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ROUTE', 'GREY', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SECOND', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SECOND', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SINCERE', 'BLACK', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SINCERE', 'COG', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SINCERE-M', 'M-GREY', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SINCERE.W', 'TAUPE', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SINGLE', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SKIP', 'CHEET', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SKIP', 'ICE/WHITE', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SKIP', 'TDYE PINK/BLUE', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SOONG', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SOONG.W', 'D-CAML', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SWEETEN', 'BLACK', 'NB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SWEETEN', 'L-BRN', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('SWEETEN', 'M-GREY', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TAMY', 'NAT', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TAYLOR', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TAYLOR', 'L-GREY', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TAYLOR', 'OAT CHEET', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'BGE/TAN CAN', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'DV-GREY', 'NB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'GOLD', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'TAN', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TOPIC', 'OAT CHEET', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TRACER-M', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('TURNING', 'BLACK', 'ISU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WAIT-A', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WAIT-A', 'NAT', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WAIT-A', 'COGNAC', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WAIT-A', 'YELLOW', 'NB', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WANDER', 'MUL CHEET', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WEEKEND', 'BLACK', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WEEKEND', 'LIP', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WEEKEND', 'NAT', 'NBPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WOODS', 'CHE OAT/BLACK', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WOODS', 'DK-KHAKI', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WOODS', 'GREY CAN', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WOODS', 'LT-KHAKI CAMO', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('WOODS', 'OAT CHEET', 'N/A', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('YUMMY', 'BLACK', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('YUMMY', 'TAN', 'PU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('YUMMY', 'TAUPE', 'DISPU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ZULUU', 'BLACK', 'IMSU', '1');
+
+INSERT INTO shoe(name, color, material, brand_id)
+VALUES('ZULUU', 'BLACK', 'PU', '1');
+
+
+-- shoe_dimension
+INSERT INTO shoe_dimension(shoe_id, size, length, width, height, weight)
+VALUES(2, 5.5, 12.5, 17.5, 23.6, 34.23);
+
+INSERT INTO shoe_dimension(shoe_id, size, length, width, height, weight)
+VALUES(4, 6, 19.6, 15.23, 28.7, 12.21);
+
+-- box_dimension
+INSERT INTO box_dimension(box_id, shoe_id, length, width, height, weight)
+VALUES(1, 6, 19.6, 15.23, 28.7, 12.21);
+
+
+-- employ
+INSERT INTO employ(name, phone, birth, email, address, zip, user_name, user_pass, position)
+VALUES('Allison', '1234567890', '03/17/1990', '123456@gmail.com', '123foster city SAN CA', '94578', '1234', '1234', 'product manager');
+
+
+--purchase_date
+INSERT INTO purchase_date(date, brand_id)
+VALUES('2020-11-24', 2);
+
+--purchase
+INSERT INTO purchase(purchase_id, box_id, shoe_id, quantity, unit_price, employ_id)
+VALUES(1, 15, 2, 2, 2.5, 1);
+
+--sell_date
+INSERT INTO sell_date(date)
+VALUES('2020-11-24');
+
+--sell
+INSERT INTO sell(sell_id, box_id, shoe_id, quantity, employ_id)
+VALUES(1, 15, 2, 2, 1);
+
+--section
+INSERT INTO section(floor, section)
+VALUES(4, 'A');
+
+--shoe_section
+INSERT INTO shoe_section(sec_id, box_id, shoe_id, quantity)
+VALUES(1, 14, 3, 20);
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'A');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'B');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'C');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'D');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'E');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'F');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'G');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'H');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'I');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'J');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'K');
+
+INSERT INTO section (floor, section)
+VALUES ('1', 'L');
+
+
+INSERT INTO shoe_section (sec_id, box_id, shoe_id, quantity)
+VALUES ('1', '2', '1', 20);
+INSERT INTO shoe_section (sec_id, box_id, shoe_id, quantity)
+VALUES ('4', '5', '40', 10);
+INSERT INTO shoe_section (sec_id, box_id, shoe_id, quantity)
+VALUES ('3', '4', '35', 9);
+INSERT INTO shoe_section (sec_id, box_id, shoe_id, quantity)
+VALUES ('20', '5', '18', 18);

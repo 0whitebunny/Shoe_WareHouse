@@ -1,0 +1,223 @@
+-- Name: Brand
+-- Purpose: Describe attributes of a brand, includes name, phone, manager name, email, and address.
+create table brand(
+   id INT NOT NULL AUTO_INCREMENT,
+   name VARCHAR(50) NOT NULL,
+   phone VARCHAR(15),
+   contact_name VARCHAR(20),
+   email VARCHAR(50),
+   address VARCHAR(50),
+   zip VARCHAR(10),
+   PRIMARY KEY ( id )
+);
+
+-- Name: employee
+-- Purpose: Describe attributes of a employee. Includes employee name, phone, birth, email, address, zip.
+create table employ(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50),
+    position VARCHAR(50),
+    phone VARCHAR(15),
+    birth VARCHAR(20),
+    email VARCHAR(50),
+    address VARCHAR(50),
+    user_name VARCHAR(15),
+    user_pass VARCHAR(15),
+    PRIMARY KEY ( id )
+);
+
+-- Name: Box
+-- Purpose: Describe attributes of a Box, includes box name and brand.
+create table box(
+   id INT NOT NULL AUTO_INCREMENT,
+   name VARCHAR(10) NOT NULL,
+   brand_id INT,
+   PRIMARY KEY ( id ),
+   FOREIGN KEY (brand_id) REFERENCES brand(id)
+);
+
+create table box_content(
+   box_id INT,
+   size FLOAT(3,1),
+   quantity INT,
+   PRIMARY KEY ( box_id, size ),
+   FOREIGN KEY (box_id) REFERENCES box(id)
+);
+
+-- Name: Shoe
+-- Purpose: Describe attributes of a shoe, includes the name, color, and material of the shoe.
+create table shoe(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    color VARCHAR(50) NOT NULL,
+    material VARCHAR(50) NOT NULL,
+    brand_id INT,
+    PRIMARY KEY ( id ),
+    FOREIGN KEY (brand_id) REFERENCES brand(id)
+);
+
+-- Name: Shoe dimension
+-- Purpose: Describe attributes of a shoe dimension, includes length, width, height, and weight of a size of a shoe
+create table shoe_dimension(
+    shoe_id INT,
+    size FLOAT(3,1),
+    length FLOAT(4,2),
+    width FLOAT(4,2),
+    height FLOAT(4,2),
+     weight FLOAT(4,2),
+	PRIMARY KEY (shoe_id, size),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id)
+);
+
+-- Name: box dimension
+-- Purpose: Describe attributes of a box dimension, includes length, width, height, and weight of a particular shoe of the box
+create table box_dimension(
+	box_id INT,  
+    shoe_id INT,  
+    length FLOAT(4,2),
+	width FLOAT(4,2),
+	height FLOAT(4,2),
+	weight FLOAT(4,2),
+	PRIMARY KEY ( box_id, shoe_id ),
+	FOREIGN KEY (box_id) REFERENCES box(id),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id)
+);
+
+-- Name: Purchase 
+-- Purpose: Describe attributes of a purchase detail, includes box, shoe, quantity, and unit price of the shoe. And which employee records.
+create table purchase(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+	box_id INT,
+    shoe_id INT,
+	quantity INT,
+	unit_price FLOAT(5,2), 
+	employ_id INT,
+	PRIMARY KEY ( id ),
+	FOREIGN KEY (box_id) REFERENCES box(id),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: Sell 
+-- Purpose: Describe attributes of a sell detail, includes box, shoe, and quantity. And which employee records.
+create table sell(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+	box_id INT,
+    shoe_id INT,
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY ( id ),
+	FOREIGN KEY (box_id) REFERENCES box(id),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: inventory_revise 
+-- Purpose: Describe attributes of a purchase detail, includes box, shoe, quantity, and unit price of the shoe. And which employee records.
+create table inventory_revise(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+	box_id INT,
+  	shoe_id INT,
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY ( id ),
+	FOREIGN KEY (box_id) REFERENCES box(id),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: rma_back
+-- Purpose: Describe attributes of a rma back to warehouse, include shoe, size, quantity. And which employee records.
+create table rma_back(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+   	shoe_id INT,
+	size FLOAT(3,1),
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY (id ),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: rma_sell
+-- Purpose: Describe attributes of a rma sold, include shoe, size, quantity. And which employee records.
+create table rma_sell(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+    shoe_id INT,
+	size FLOAT(3,1),
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY ( id ),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: mix_back
+-- Purpose: Describe attributes of a mix back to warehouse, include shoe, size, quantity. And which employee records.
+create table mix_back(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+   	shoe_id INT,
+	size FLOAT(3,1),
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY (id ),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: mix_sell
+-- Purpose: Describe attributes of a mix sold, include shoe, size, quantity. And which employee records.
+create table mix_sell(
+    id INT NOT NULL AUTO_INCREMENT,
+	date DATE,
+    shoe_id INT,
+	size FLOAT(3,1),
+	quantity INT,
+	employ_id INT,
+	PRIMARY KEY ( id ),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (employ_id) REFERENCES employ(id)
+);
+
+-- Name: section
+-- Purpose: Describe attributes of a warehouse section. Includes which flour and which section.
+create table section(
+	id INT NOT NULL AUTO_INCREMENT,
+	floor INT,
+	section VARCHAR(5),
+	PRIMARY KEY ( id )
+);
+
+-- Name: shoe_section
+-- Purpose: Describe attributes of a warehouse storage. Includes which section stores the quantity of shoe box.
+create table shoe_section(
+	sec_id INT,
+	box_id INT,
+    shoe_id INT,
+	quantity INT,
+	PRIMARY KEY ( sec_id, box_id, shoe_id ),
+	FOREIGN KEY (sec_id) REFERENCES section(id),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id),
+	FOREIGN KEY (box_id) REFERENCES box(id)
+);
+
+-- Name: photo
+-- Purpose: Describe attributes of a shoe photo. Include which shoe , photo and image name.
+create table photo(
+	shoe_id INT,
+    image_id INT,
+	imageName varChar(50), 
+    varBinaryData BLOB,
+	PRIMARY KEY ( shoe_id, image_id ),
+	FOREIGN KEY (shoe_id) REFERENCES shoe(id)
+);
+
+
+
+
